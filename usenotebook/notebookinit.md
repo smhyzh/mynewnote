@@ -39,3 +39,7 @@ Initialized empty Git repository in /Users/michael/learngit/.git/
 第三步，通过git add命令增加版本控制所跟踪的文件。
 git add usenotebook
 git add usenotebook/notebookinit.md
+如果成功，不会返回其它提示消息。
+
+第四步，用命令git commit告诉Git，把文件提交到仓库：
+$ git commit -m "wrote notebook init."
