@@ -93,7 +93,9 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 现在，我们根据GitHub的提示，在本地的learngit仓库下运行命令：
 $ git remote add origin git@github.com:michaelliao/learngit.git
-
+添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
 下一步，就可以把本地库的所有内容推送到远程库上：
 
 $ git push -u origin master
+
+可以直接使用GitHub创建空工程后给出的提示。
