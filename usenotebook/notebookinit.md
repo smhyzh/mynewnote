@@ -98,4 +98,7 @@ $ git remote add origin git@github.com:michaelliao/learngit.git
 
 $ git push -u origin master
 
-可以直接使用GitHub创建空工程后给出的提示。
+可以直接使用GitHub创建空工程后给出的提示中的内容进行粘贴处理。
+
+完成之后直接点击vs中的代码管理：GIT中的提交按钮，加入修改提示。先完成本地提交。之后还有非常关键的一步，就是点击vs左下角的双箭头同步更改按钮将本地代码库修改同步到GitHub中去。
+至此修改完成。
